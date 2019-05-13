@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--Copyright (C) 2019 Benjamin N. Zelnick. All Rights Reserved. Permission is not granted to modify or distribute this software without the prior permission of the Creator.-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome | Moorestown Friends School</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script type="text/javascript" src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="clock.js"></script>
+        <script type="text/javascript" src="periods.js"></script>
+    </head>
+    <body>
+        <div class="center">
+            <p class="main" id="greeting">Hello, Moorestown Friends School!</p>
+            <p id="date" class="mainSub noMargin"></p>
+            <p id="clock" class="mainSub noMargin"></p>
+            <p id="currentPeriod" class="mainSub noMargin"></p>
+            <p id="busStatus" class="mainSub noMargin" hidden></p>
+            <div class="topMargin">
+                <a class="weatherwidget-io" href="https://forecast7.com/en/39d97n74d95/moorestown/?unit=us" data-label_1="MOORESTOWN FRIENDS SCHOOL" data-label_2="Weather" data-font="Open Sans" data-icons="Climacons Animated" data-accent="rgba(0, 0, 0, 0.09)" data-textcolor="#ffffff" data-highcolor="#ff7373" data-lowcolor="#9aaaff" data-suncolor="#ffc800" data-mooncolor="#ecffff" data-cloudcolor="#e5e5e5" data-raincolor="#d1eaff" data-snowcolor="#dbfbff" >MOORESTOWN FRIENDS SCHOOL Weather</a>
+                <script>
+                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                </script>
+            </div>
+        </div>
+        <p id="credits">Created for Moorestown Friends School by Benjamin Zelnick in 2019.</p>
+    </body>
+</html>

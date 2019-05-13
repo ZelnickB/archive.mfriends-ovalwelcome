@@ -1,0 +1,37 @@
+/* Copyright (C) 2019 Benjamin N. Zelnick. All Rights Reserved. Permission is not granted to modify or distribute this software without the prior permission of the Creator. */
+@import url("https://fonts.googleapis.com/css?family=Lato&subset=latin-ext");
+html {
+    min-height: 100%;
+    background: linear-gradient(135deg, skyblue 0%, blue 100%);
+    color: white;
+    font-family: "Lato", sans-serif;
+    cursor: none;
+}
+.noMargin {
+    margin: 0px;
+}
+.topMargin {
+    margin-top: 50pt;
+    margin-left: 10pt;
+    margin-right: 10pt;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.main {
+    font-size: 50pt;
+}
+.mainSub {
+    font-size: 40pt;
+}
+#credits {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0px 10px 10px 0px;
+}
